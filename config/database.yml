@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: jbEver_production
-  username: jbEver
-  password: <%= ENV['JBEVER_DATABASE_PASSWORD'] %>
+  database: postgresql
